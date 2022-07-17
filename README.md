@@ -50,6 +50,7 @@ Run python file `python train_model.py -Command option `
 | -e, --epochs       | maximum number of epochs used for training the model         | Example: 100                                      |
 | -a, --architecture | select network architecture for training                     | 1: CNN<br />2. BiLSTM+CNN                         |
 | -l, --length       | specify the subsequence length                               | Example: 250                                      |
+| -S, --sample       | select data balance method(undersampling, oversampling)      | Example: u                                        |
 
 
 
